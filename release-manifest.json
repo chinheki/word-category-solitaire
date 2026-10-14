@@ -1,0 +1,100 @@
+{
+  "description": "Only browser-public runtime assets; no source, chat, screenshots, references, credentials or environment files.",
+  "files": [
+    {
+      "path": "site/index.html",
+      "bytes": 608,
+      "sha256": "4f9990a9184c4236533298dd47574ff08d0b00356d585fcc9040bed79890d6cf"
+    },
+    {
+      "path": "site/assets/index-DvyJfdmA.js",
+      "bytes": 273345,
+      "sha256": "8d9b3950bbcd6bf6adc7774ed03703b65a4388652e08e87274fc65e1bf5a43dc"
+    },
+    {
+      "path": "site/assets/index-CFcYOmqQ.css",
+      "bytes": 21924,
+      "sha256": "1eb7219d61faa8ac80ffc220b86ca19dff079782fcffb429eac9b2efa65b46ca"
+    },
+    {
+      "path": "site/cards/bagel.svg",
+      "bytes": 651,
+      "sha256": "f7c79494c7d2b089c5026b547a7a5790e9e32225ee5549b416ad8dfcc9940587"
+    },
+    {
+      "path": "site/cards/croissant.svg",
+      "bytes": 467,
+      "sha256": "667379f37346c9aeeb961c1450d7926cdabbbeeb03f827bb6358e35e27ea801d"
+    },
+    {
+      "path": "site/cards/earth.svg",
+      "bytes": 454,
+      "sha256": "3ff88b4baea24e4c690887df387ec634f316500b8d89e789b3f9fcaead82d144"
+    },
+    {
+      "path": "site/cards/fried-egg.svg",
+      "bytes": 529,
+      "sha256": "da625fe41bc870cbdec392975b19bc9e8f01a7d03aebc3c427a395d521c17430"
+    },
+    {
+      "path": "site/cards/jupiter.svg",
+      "bytes": 497,
+      "sha256": "5d794891a9bdf6440bb07a2f75b937253693764fc115755de790193cfce79a86"
+    },
+    {
+      "path": "site/cards/mars.svg",
+      "bytes": 447,
+      "sha256": "a25b49ef00ee0d8d2a54f4bf38ae9e6aed9599d0fff86b65b5f4124d315ca254"
+    },
+    {
+      "path": "site/cards/mercury.svg",
+      "bytes": 462,
+      "sha256": "51b35979450bd4ecc1073798a2e59d42f217dcbc20ff6279e500badcd47d37ff"
+    },
+    {
+      "path": "site/cards/neptune.svg",
+      "bytes": 479,
+      "sha256": "9944d05212e47b7cd5555433c5ecd92bb9403cb6dfc8694379b3fdad2f30e907"
+    },
+    {
+      "path": "site/cards/oatmeal.svg",
+      "bytes": 677,
+      "sha256": "72fc6c7aab24ad038c2b7a6cea905d9ba41faf62b9d7ab5506dabef6f9bc6694"
+    },
+    {
+      "path": "site/cards/pancakes.svg",
+      "bytes": 703,
+      "sha256": "f468c5f6592a47e8812dbf22ab634ad838b111461bc73b6e0cd370d9aaf7fe42"
+    },
+    {
+      "path": "site/cards/rice-ball.svg",
+      "bytes": 554,
+      "sha256": "f64c677ea7f87554801bc37f9ec6d75f5c0c27d973aec3fc6edd20a3187f96f3"
+    },
+    {
+      "path": "site/cards/saturn.svg",
+      "bytes": 570,
+      "sha256": "023492fe1d8c2bdef71401ccc9555712e6c18d9b22de6ac8dfac51aad352d4f0"
+    },
+    {
+      "path": "site/cards/steamed-bun.svg",
+      "bytes": 515,
+      "sha256": "1642fd4d2d54af1693b38a6214a8283a338c475e82cc0389b44f58dc0a7c21bb"
+    },
+    {
+      "path": "site/cards/toast.svg",
+      "bytes": 523,
+      "sha256": "a86b22ea1616ffc03c08309394d8b7832efa88ff4d5f60438ec4928afe612b56"
+    },
+    {
+      "path": "site/cards/uranus.svg",
+      "bytes": 561,
+      "sha256": "3870c2723782554ac86514dc6c2829a3a371ea2f3444fec75d30e5be35428f3f"
+    },
+    {
+      "path": "site/cards/venus.svg",
+      "bytes": 462,
+      "sha256": "fb7ac6ecb7d13608dcbd47efd7ff29553b6bf854662062b74d89d3c3f56dbaac"
+    }
+  ]
+}

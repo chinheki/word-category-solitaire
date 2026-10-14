@@ -1,0 +1,48 @@
+name: Verify and deploy playable game
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: pages
+  cancel-in-progress: true
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-node@v6
+        with:
+          node-version: 24
+      - name: Verify reviewed browser files
+        run: |
+          node --input-type=module <<'JS'
+          import fs from 'node:fs';
+          import crypto from 'node:crypto';
+          const report = JSON.parse(fs.readFileSync('release-manifest.json', 'utf8'));
+          for (const file of report.files) {
+            if (!file.path.startsWith('site/') || file.path.includes('..')) throw new Error('Invalid path');
+            const digest = crypto.createHash('sha256').update(fs.readFileSync(file.path)).digest('hex');
+            if (digest !== file.sha256) throw new Error(`Checksum mismatch: ${file.path}`);
+          }
+          if (!fs.existsSync('site/index.html')) throw new Error('Missing entry page');
+          console.log(`${report.files.length} reviewed browser files verified`);
+          JS
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: site
+  deploy:
+    needs: verify
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    permissions:
+      pages: write
+      id-token: write
+    steps:
+      - uses: actions/deploy-pages@v4
+        id: deployment
