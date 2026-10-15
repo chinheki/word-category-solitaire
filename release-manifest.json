@@ -4,17 +4,17 @@
     {
       "path": "site/index.html",
       "bytes": 603,
-      "sha256": "4f6b5907eb857a3ee4cb978b4d9b1f36296c527d681967c0f4ade8799f86ff4f"
+      "sha256": "73cf1680ca2c4fa71f77dbd860114a16d18c2c59f948c861705cb385c7867f24"
     },
     {
-      "path": "site/assets/index-BfWg0255.js",
-      "bytes": 281152,
-      "sha256": "5fe56c70edd92e9b0ad51b4347c48b7bc00096b756296904c240a6b0c8937054"
+      "path": "site/assets/index-Bal34Y2J.css",
+      "bytes": 25440,
+      "sha256": "457771eb28ecc08588e55506e1b366990026c000f5531d2b487db6c4f2383050"
     },
     {
-      "path": "site/assets/index-QzIvyGdS.css",
-      "bytes": 25280,
-      "sha256": "4925e87fe5b306e7af640c5f1eb3c091698502843745557a5b7e35e11b8d4c08"
+      "path": "site/assets/index-Cz08Su0C.js",
+      "bytes": 281141,
+      "sha256": "3773a1299cca7207b2e58d9cee40b472345f432cf6838391c88132b629c973ed"
     },
     {
       "path": "site/cards/bagel.svg",
